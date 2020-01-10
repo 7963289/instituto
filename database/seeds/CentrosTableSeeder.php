@@ -11,6 +11,11 @@ class CentrosTableSeeder extends Seeder
      */
     public function run()
     {
-        //
+        //Codigo innecesario
+       /*  if(env('APP_ENV') != 'production') {
+            DB::table('centros')->truncate();
+            // Create 3 App\UserCentro instances...
+            $centros = factory(App\Centro::class, 3)->create();
+        } */
     }
 }
