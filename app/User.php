@@ -44,5 +44,6 @@ class User extends Authenticatable
     public function centros()
     {
         return $this->hasMany('App\Centro', 'coordinador');
+
     }
 }
