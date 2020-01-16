@@ -8,13 +8,22 @@ class Nivel extends Model
 {
     protected $table = 'niveles';
 
+
+    public function grupos()
+    {
+        return $this->hasMany('App\Grupos', 'id');
+    }
+
     public function niveles() {
         return $this->hasMany('\App\Nivel','nivelsuperior');
     }
 
-    public function nivelPadre() {
-        return $this->belongsTo('\App\Nivel','nivelsuperior');
+    public function nivelObject() {
+        return $this->belongsTo('\App\Nivel','id','nivelsuperior');
     }
+
+
+    
 
 
 }

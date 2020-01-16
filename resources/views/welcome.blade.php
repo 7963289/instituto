@@ -9,11 +9,7 @@
                     Laravel
                 </div>
                 <div class="links">
-<<<<<<< HEAD
-                    <a id="loadUsers">Users</a>
-=======
                     <button id="loadUsers">Users</button>
->>>>>>> e2fec850c0f892e11377e3c16a8a9c299275fdec
                     <a href="https://laracasts.com">Laracasts</a>
                     <a href="https://laravel-news.com">News</a>
                     <a href="https://blog.laravel.com">Blog</a>

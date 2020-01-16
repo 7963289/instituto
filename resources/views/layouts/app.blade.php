@@ -11,13 +11,8 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
-<<<<<<< HEAD
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="{{ asset('js/script.js') }}" defer></script>
-=======
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" defer></script>
     <script src="{{ asset('js/functions.js') }}" defer></script>
->>>>>>> e2fec850c0f892e11377e3c16a8a9c299275fdec
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
