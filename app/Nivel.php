@@ -11,7 +11,7 @@ class Nivel extends Model
 
     public function grupos()
     {
-        return $this->hasMany('App\Grupos', 'id');
+        return $this->hasMany('App\Grupo', 'nivel');
     }
 
     public function niveles() {
