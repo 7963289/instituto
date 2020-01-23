@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Materiaimpartida extends Model
 {
     protected $table = 'materiasimpartidas';
+    protected $fillable = ['docente', 'grupo','materia'];
 
     public function userObject() {
         return $this->belongsTo('\App\User', 'docente');
