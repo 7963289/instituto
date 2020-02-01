@@ -19,7 +19,7 @@ class UserController extends Controller
     public function index()
     {
 
-        return MateriaResource::collection(Auth::user()->misMateriasMatriculadas);
+        /* return MateriaResource::collection(Auth::user()->misMateriasMatriculadas); */
     }
 
     /**
