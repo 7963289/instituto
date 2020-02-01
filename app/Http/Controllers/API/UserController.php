@@ -4,8 +4,10 @@ namespace App\Http\Controllers\API;
 
 use App\Http\Controllers\Controller;
 use App\Http\Resources\UserResource;
+use App\Http\Resources\MateriaResource;
 use App\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class UserController extends Controller
 {
@@ -16,7 +18,8 @@ class UserController extends Controller
      */
     public function index()
     {
-        return UserResource::collection(User::paginate());
+
+        return MateriaResource::collection(Auth::user()->misMateriasMatriculadas);
     }
 
     /**
